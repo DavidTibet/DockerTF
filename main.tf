@@ -23,7 +23,7 @@ resource "aws_instance" "example" {
 
   user_data = <<-EOF
 	      #!/bin/bash
-        curl https://get.docker.com | bash
+              curl https://get.docker.com | bash
 	      EOF
 }
 
